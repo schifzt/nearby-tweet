@@ -11,14 +11,20 @@ chrome.extension.onMessage.addListener(() => {
         const since = new Date(date);
         const until = new Date(date);
 
-        // Search in the range of $tweet_date plus or minus 3 Days
-        since.setDate(since.getDate() - 3);
-        until.setDate(until.getDate() + 3);
+        // Search in the range of $tweet_date plus or minus $pm $unit
+        // Ex.) If $pm = 3 and $unit = "Date", the below is "since.setDate(since.getDate() - pm);"
+        since["set" + unit](since["get" + unit]() - pm);
+        until["set" + unit](until["get" + unit]() + pm);
 
         const tweet_since = since.toISOString().split('T')[0];
         const tweet_until = until.toISOString().split('T')[0];
 
-        var query = "(from%3A" + username + ")%20" + "since%3A" + tweet_since + "%20" + "until%3A" + tweet_until + "&src=typed_query" + "&f=live";
+        var query =
+            "(from%3A" + username + ")" +
+            "%20since%3A" + tweet_since +
+            "%20until%3A" + tweet_until +
+            "&src=typed_query" + "&f=live";
+
         var search_url = "https://twitter.com/search?q=" + query;
 
         window.open(search_url, "_blank");

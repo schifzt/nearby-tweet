@@ -12,7 +12,8 @@
         "https://twitter.com/*"
     ],
     "js" : [
-      "src/content.js"
+      "src/content.js",
+      "src/parameters.js"
     ]
   }],
   "background" : {
