@@ -1,0 +1,26 @@
+﻿{
+  "name" : "Contextual Bird's-eye",
+  "version" : "1.0",
+  "manifest_version" : 2,
+  "description" : "選択したツイートの直前直後のツイートを表示する",
+  "permissions" : [
+      "background",
+      "contextMenus"
+  ],
+  "content_scripts" : [{
+    "matches" : [
+        "https://twitter.com/*"
+    ],
+    "js" : [
+      "src/content.js"
+    ]
+  }],
+  "background" : {
+    "matches" : [
+        "https://twitter.com/*"
+    ],
+    "scripts" : [
+      "src/background.js"
+    ]
+  }
+}
