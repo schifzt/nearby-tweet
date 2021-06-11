@@ -8,7 +8,7 @@ chrome.browserAction.setBadgeText({text:String(unit[0] + pm)});
 var setRange = function(unit_, pm_){
     unit = unit_;
     pm = pm_;
-    chrome.browserAction.setBadgeText({text:String(unit_[0] + pm_)});
+    chrome.browserAction.setBadgeText({text:String(unit[0] + pm)});
 }
 
 // Send $unit and $pm to popup.js

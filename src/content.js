@@ -17,6 +17,10 @@ chrome.extension.onMessage.addListener(function(request, _, _){
         // Ex.) If $pm = 3 and $unit = "Date", the below is "since.setDate(since.getDate() - pm);"
         let since = new Date(date);
         let until = new Date(date);
+
+        // Use getFullYear() instead of getYear()
+        if(unit === "Year") unit = "Full" + unit;
+
         since["set" + unit](since["get" + unit]() - pm);
         until["set" + unit](until["get" + unit]() + pm);
 
