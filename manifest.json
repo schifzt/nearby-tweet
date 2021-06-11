@@ -2,7 +2,7 @@
   "name" : "Contextual Bird's-eye",
   "version" : "1.0",
   "manifest_version" : 2,
-  "description" : "選択したツイートの直前直後のツイートを表示する",
+  "description" : "選択したツイートの前後n（日|月|年）間のツイートを表示する",
   "permissions" : [
       "background",
       "contextMenus"
@@ -12,8 +12,7 @@
         "https://twitter.com/*"
     ],
     "js" : [
-      "src/content.js",
-      "src/parameters.js"
+      "src/content.js"
     ]
   }],
   "background" : {
@@ -23,5 +22,8 @@
     "scripts" : [
       "src/background.js"
     ]
+  },
+  "browser_action": {
+    "default_popup": "src/popup.html"
   }
 }

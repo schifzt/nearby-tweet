@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="jquery.min.js"></script>
+        <script src="popup.js"></script>
+    </head>
+    <body>
+        <p>Select a search range:</p>
+
+        <div class="container">
+            <input type="radio" id="radio_date" class="radio" name="unit" value="date" checked>
+            <div class="pure-material-slider">
+                <input type="range" id="range_date" name="pm" list="tickmarks_date"
+                                                              min="0" max="31" value="1">
+                <div class="pmrange">
+                    <label for="radio_date">&#177</label>
+                    <output id="output_date">1</output>
+                    <label for="radio_date">day</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <input type="radio" id="radio_month" class="radio" name="unit" value="month">
+            <div class="pure-material-slider">
+                <input type="range" id="range_month" name="pm" list="tickmarks_month"
+                                                               min="0" max="12" value="0">
+                <div class="pmrange">
+                    <label for="radio_month">&#177</label>
+                    <output id="output_month">0</output>
+                    <label for="radio_month">month</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <input type="radio" id="radio_year" class="radio" name="unit" value="year">
+            <div class="pure-material-slider">
+                <input type="range" id="range_year" name="pm" list="tickmarks_year"
+                                                              min="0" max="10" value="0">
+                <div class="pmrange">
+                    <label for="radio_year">&#177</label>
+                    <output id="output_year">0</output>
+                    <label for="radio_year">year</label>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
