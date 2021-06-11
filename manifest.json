@@ -1,6 +1,6 @@
 ﻿{
   "name" : "Contextual Bird's-eye",
-  "version" : "1.0",
+  "version" : "1.1",
   "manifest_version" : 2,
   "description" : "選択したツイートの前後n（日|月|年）間のツイートを表示する",
   "permissions" : [
