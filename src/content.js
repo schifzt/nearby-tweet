@@ -33,6 +33,6 @@ chrome.extension.onMessage.addListener(function(request, _, _){
         let search_url = "https://twitter.com/search?q=" + query;
 
         console.log(search_url);
-        // window.open(search_url, "_blank");
+        window.open(search_url, "_blank");
     }
 })
