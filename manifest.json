@@ -5,7 +5,8 @@
   "description" : "選択したツイートの前後n（日|月|年）間のツイートを表示する",
   "permissions" : [
       "background",
-      "contextMenus"
+      "contextMenus",
+      "storage"
   ],
   "content_scripts" : [{
     "matches" : [
