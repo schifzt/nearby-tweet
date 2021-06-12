@@ -2,13 +2,13 @@ var unit = "Date";
 var pm = "1";
 
 // Init
-chrome.browserAction.setBadgeText({text:String(unit[0] + pm)});
+chrome.browserAction.setBadgeText({text:String(pm + unit[0])});
 
 // Receive $unit and $pm from popup.js
 var setRange = function(unit_, pm_){
     unit = unit_;
     pm = pm_;
-    chrome.browserAction.setBadgeText({text:String(unit[0] + pm)});
+    chrome.browserAction.setBadgeText({text:String(pm + unit[0])});
 }
 
 // Send $unit and $pm to popup.js
