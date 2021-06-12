@@ -8,7 +8,7 @@
 
 検索期間は、拡張機能のアイコンをクリックすると開くポップアップから設定できる
 
-![capture](https://raw.githubusercontent.com/shifzt/contextual-birds-eye/master/assets/capture.png)
+![capture](https://raw.githubusercontent.com/schifzt/contextual-birds-eye/master/assets/capture.png)
 
 ## インストール方法
 1. 右上の「Code」 > 「Clone」または「Download zip」からダウンロードする
