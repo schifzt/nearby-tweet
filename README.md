@@ -6,7 +6,8 @@
 2. 右クリックしてメニューから「Contextual Bird's-eye」を選択する
 3. Twitterの検索結果が表示される
 
-検索期間は、拡張機能のアイコンをクリックすると開くポップアップから設定できる
+拡張機能のアイコンをクリックするとポップアップが開く
+そこから検索期間を設定できる↓
 
 ![capture](https://raw.githubusercontent.com/schifzt/contextual-birds-eye/master/assets/capture.png)
 
