@@ -7,6 +7,7 @@
 3. Twitterの検索結果が表示される
 
 拡張機能のアイコンをクリックするとポップアップが開く
+
 そこから検索期間を設定できる↓
 
 ![capture](https://raw.githubusercontent.com/schifzt/contextual-birds-eye/master/assets/capture.png)
