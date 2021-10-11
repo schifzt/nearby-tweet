@@ -1,23 +1,17 @@
 # Contextual Bird's-eye
-選択したツイートの前後N（日|月|年）間のツイートを表示するChrome拡張機能
+An extension for Google Chrome to search tweet history quickly within a specific time range pivoting around the selected tweet.
+```
+           <----------------- tweet ----------------->
++3days after                    0                    -3days before
+```
 
-## 使い方
-1. ツイートをクリックして選択する
-2. 右クリックしてメニューから「Contextual Bird's-eye」を選択する
-3. Twitterの検索結果が表示される
+## Usage
+1. Select a tweet.
+2. Right click on the tweet and select a "Contextual Bird's-eye" option.
 
-拡張機能のアイコンをクリックするとポップアップが開く
-
-そこから検索期間を設定できる↓
+You can specify a time range via an extension icon.
 
 ![capture](https://raw.githubusercontent.com/schifzt/contextual-birds-eye/master/assets/capture.png)
-
-## インストール方法
-1. 右上の「Code」 > 「Clone」または「Download zip」からダウンロードする
-2. `chrome://extensions`にアクセスする
-3. 右上の「デベロッパーモード」を有効にする
-4. 「パッケージ化されていない拡張機能を読み込む」をクリックする
-5. ダウンロードしたフォルダ（デフォルトのフォルダ名は「contextual-birds-eye-master」）を開いて読み込む
 
 ## License
 MIT
