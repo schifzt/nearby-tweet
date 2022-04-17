@@ -7,7 +7,7 @@ An extension for Google Chrome to search nearby tweets quickly within a specific
 
 ## Usage
 1. Select a tweet.
-2. Right click on the tweet and select a "Contextual Bird's-eye" option.
+2. Right click on the tweet and select a "Nearby Tweet" option.
 
 ![capture](assets/capture1.png)
 

@@ -7,15 +7,15 @@
 
 ## 使い方
 1. ツイートをクリックして選択する
-2. 右クリックしてメニューから「Contextual Bird's-eye」オプションを選択する
+2. 右クリックしてメニューから「Nearby Tweet」オプションを選択する
 
-![capture](https://raw.githubusercontent.com/schifzt/nearby_tweet/master/assets/capture1.png)
+![capture](assets/capture1.png)
 
 拡張機能のアイコンをクリックするとポップアップが開く
 
 開いたポップアップから検索期間を設定できる
 
-![capture](https://raw.githubusercontent.com/schifzt/nearby_tweet/master/assets/capture2.png)
+![capture](assets/capture2.png)
 
 ## インストール方法
 1. このページの「Download zip」をクリックしてダウンロードする
