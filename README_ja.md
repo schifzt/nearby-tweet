@@ -9,11 +9,13 @@
 1. ツイートをクリックして選択する
 2. 右クリックしてメニューから「Contextual Bird's-eye」オプションを選択する
 
+![capture](https://raw.githubusercontent.com/schifzt/nearby_tweet/master/assets/capture1.png)
+
 拡張機能のアイコンをクリックするとポップアップが開く
 
-そこから検索期間を設定できる↓
+開いたポップアップから検索期間を設定できる
 
-![capture](https://raw.githubusercontent.com/schifzt/contextual-birds-eye/master/assets/capture.png)
+![capture](https://raw.githubusercontent.com/schifzt/nearby_tweet/master/assets/capture2.png)
 
 ## インストール方法
 1. このページの「Download zip」をクリックしてダウンロードする
