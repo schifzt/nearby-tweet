@@ -1,4 +1,4 @@
-# Contextual Bird's-eye
+# Nearby Tweet
 選択したツイートの前後N（日|月|年）間のツイートを表示するChrome拡張機能
 ```
        <----------------- tweet ----------------->

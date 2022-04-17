@@ -1,5 +1,5 @@
-# Contextual Bird's-eye
-An extension for Google Chrome to search tweet history quickly within a specific time range pivoting around the selected tweet.
+# Nearby Tweet
+An extension for Google Chrome to search nearby tweets quickly within a specific time range pivoting around the selected tweet.
 ```
            <----------------- tweet ----------------->
 +3days after                    0                    -3days before
