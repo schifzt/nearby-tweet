@@ -11,9 +11,13 @@ An extension for Google Chrome to search nearby tweets quickly within a specific
 
 ![capture](assets/capture1.png)
 
-You can specify a time range via an extension icon.
+3. Then a new tab with a search query will open.
 
 ![capture](assets/capture2.png)
+
+You can specify a time range via an extension icon.
+
+![capture](assets/capture3.png)
 
 
 ## License
