@@ -24,4 +24,4 @@ chrome.contextMenus.onClicked.addListener(onContextMenuClick);
 // バッジの表示を初期化
 chrome.action.setBadgeText({ text: "1D" });
 chrome.action.setBadgeTextColor({ color: '#FFFFFF' });
-chrome.action.setBadgeBackgroundColor({ color: 'blue' });
+chrome.action.setBadgeBackgroundColor({ color: '#4285F4' });

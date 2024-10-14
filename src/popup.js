@@ -19,7 +19,7 @@ const sendRequest = function (unit, pm) {
 const setBadgeText = function (unit, pm) {
     chrome.action.setBadgeText({ text: `${pm}${unit[0]}` });
     chrome.action.setBadgeTextColor({ color: '#FFFFFF' });
-    chrome.action.setBadgeBackgroundColor({ color: 'blue' });
+    chrome.action.setBadgeBackgroundColor({ color: '#4285F4' });
 }
 
 $(function () {
