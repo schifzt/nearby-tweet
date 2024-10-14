@@ -1,0 +1,27 @@
+﻿{
+    "name": "Nearby Tweet",
+    "version": "1.1",
+    "manifest_version": 3,
+    "description": "選択したツイートの前後n（日|月|年）間のツイートを表示する",
+    "permissions": [
+        "background",
+        "contextMenus",
+        "tabs"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://x.com/*"
+            ],
+            "js": [
+                "src/content.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "src/popup.html"
+    },
+    "background": {
+        "service_worker": "src/background.js"
+    }
+}
